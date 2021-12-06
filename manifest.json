@@ -16,6 +16,14 @@
         "background",
         "scripting"
     ],
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Alt+Shift+D",
+                "mac": "Alt+Shift+D"
+            }
+        }
+    },
     "background": {
         "service_worker": "background.js"
     }
