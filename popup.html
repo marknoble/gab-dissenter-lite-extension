@@ -1,8 +1,36 @@
 <html>
     <head>
-        <title>Dissenter Lite</title>        
+        <title>Dissenter Lite</title>
+        
+        <script type="text/javascript">
+            function dissent(){
+                // Notify user of redirect
+                document.body.innerHTML = "Opening Dissenter...";
+
+                // Example newURL: https://dissenter.com/discussion/begin?url=https://marknoble.com/
+                var newURL = window.location.protocol + "//" + "dissenter.com/discussion/begin?url=" + window.location;
+
+                window.location = newURL;
+            }
+        </script>
+
+        <style>
+            .popup {
+                display: block;
+                min-width: 420px;
+                min-height: 600px;
+                overflow: hidden;
+                background-color: #fff;
+            }
+
+            body {
+                    display: block;
+                    height: 100vh;
+                    width: 100vw;
+            }
+        </style>
     </head>
-    <body>
+    <body onload="dissent()" class="popup">
 
     </body>
 </html>
