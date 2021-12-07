@@ -1,2 +1,2 @@
 # gab-dissenter-lite-extension
-A light version of the Gab Dissenter browser extension
+Dissenter Light is the minimalist way to get to the comment section of the Internet.
